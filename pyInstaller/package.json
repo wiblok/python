@@ -1,0 +1,12 @@
+{
+  "name": "pyinstaller",
+  "version": "1.0.0",
+  "description": "pip install -r requirements.txt -t ./py_module",
+  "main": "index.js",
+  "scripts": {
+    "install:global": "pip install -r requirements.global.txt",
+    "build": "pyinstaller --onefile main.py"
+  },
+  "author": "",
+  "license": "ISC"
+}
