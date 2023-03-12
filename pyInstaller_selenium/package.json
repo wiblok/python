@@ -1,0 +1,13 @@
+{
+  "name": "pyinstaller_openpyxl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "pip install -r requirements.txt",
+    "start": "python main.py",
+    "build": "pyinstaller ./main.py --onefile --noconsole --path=./driver/msedgedriver.exe --add-binary './driver/msedgedriver.exe;./driver'"
+  },
+  "author": "",
+  "license": "ISC"
+}
