@@ -1,0 +1,12 @@
+{
+  "name": "openpyxl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "pip install -r requirements.txt -t site-packages",
+    "start": "python main.py"
+  },
+  "author": "",
+  "license": "ISC"
+}

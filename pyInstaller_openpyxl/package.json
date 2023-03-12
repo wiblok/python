@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "install": "pip install npm run install:local && npm run install:global",
+    "install:local": "pip install -r requirements.local.txt -t ./site-packages",
     "install:global": "pip install -r requirements.global.txt",
     "build": "pyinstaller --onefile main.py"
   },
