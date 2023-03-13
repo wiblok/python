@@ -1,0 +1,12 @@
+{
+  "name": "pyinstaller_openpyxl",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "install": "pip install -r requirements.txt",
+    "start": "uvicorn main:app --reload"
+  },
+  "author": "",
+  "license": "ISC"
+}
